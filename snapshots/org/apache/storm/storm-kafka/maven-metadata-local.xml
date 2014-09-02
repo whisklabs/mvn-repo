@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.storm</groupId>
+  <artifactId>storm-kafka</artifactId>
+  <versioning>
+    <versions>
+      <version>0.9.3-incubating-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140902114005</lastUpdated>
+  </versioning>
+</metadata>
