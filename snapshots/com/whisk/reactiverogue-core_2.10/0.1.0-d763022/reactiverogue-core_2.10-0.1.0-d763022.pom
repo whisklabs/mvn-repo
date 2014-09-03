@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.whisk</groupId>
+    <artifactId>reactiverogue-core_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>reactiverogue-core</description>
+    <version>0.1.0-d763022</version>
+    <name>reactiverogue-core</name>
+    <organization>
+        <name>com.whisk</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.whisk</groupId>
+            <artifactId>reactiverogue-mongodb_2.10</artifactId>
+            <version>0.1.0-d763022</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-json_2.10</artifactId>
+            <version>2.3.4</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>SonatypeSnapshots</id>
+            <name>Sonatype Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>typesafe</id>
+            <name>typesafe</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
